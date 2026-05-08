@@ -1,0 +1,7 @@
+{
+  "accuracy": 0.6493506493506493,
+  "pred_time_sec": 52.09161190000003,
+  "num_test_utts": 924,
+  "feature_type": "mfcc",
+  "n_components": 4
+}

@@ -1,0 +1,9 @@
+{
+  "train_json": "train_info.json",
+  "test_json": "test_info.json",
+  "base_dataset_dir": "DATA/TRAIN",
+  "feature_type": "mfcc_d_dd",
+  "model_type": "gmm",
+  "n_components": 16,
+  "name": "MFCC+Δ+ΔΔ + GMM(K=16)"
+}

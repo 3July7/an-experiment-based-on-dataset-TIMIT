@@ -1,0 +1,7 @@
+name,feature,model,n_components,accuracy,pred_time_sec,exp_dir,confusion_top20_csv
+MFCC + GMM(K=16),mfcc,gmm,16,0.8690476190476191,67.562974,artifacts/experiments_gmm_k\MFCC__GMM_K16,artifacts/experiments_gmm_k\MFCC__GMM_K16\confusion_top20.csv
+MFCC + GMM(K=8),mfcc,gmm,8,0.7976190476190477,57.338211599999994,artifacts/experiments_gmm_k\MFCC__GMM_K8,artifacts/experiments_gmm_k\MFCC__GMM_K8\confusion_top20.csv
+MFCC + GMM(K=4),mfcc,gmm,4,0.6493506493506493,52.09161190000003,artifacts/experiments_gmm_k\MFCC__GMM_K4,artifacts/experiments_gmm_k\MFCC__GMM_K4\confusion_top20.csv
+MFCC+Δ+ΔΔ + GMM(K=16),mfcc_d_dd,gmm,16,0.8311688311688312,96.45649550000002,artifacts/experiments_gmm_k\MFCC_D_DD__GMM_K16,artifacts/experiments_gmm_k\MFCC_D_DD__GMM_K16\confusion_top20.csv
+MFCC+Δ+ΔΔ + GMM(K=8),mfcc_d_dd,gmm,8,0.7337662337662337,74.9972461000001,artifacts/experiments_gmm_k\MFCC_D_DD__GMM_K8,artifacts/experiments_gmm_k\MFCC_D_DD__GMM_K8\confusion_top20.csv
+MFCC+Δ+ΔΔ + GMM(K=4),mfcc_d_dd,gmm,4,0.5941558441558441,65.37878580000006,artifacts/experiments_gmm_k\MFCC_D_DD__GMM_K4,artifacts/experiments_gmm_k\MFCC_D_DD__GMM_K4\confusion_top20.csv
